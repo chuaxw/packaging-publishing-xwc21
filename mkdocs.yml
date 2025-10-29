@@ -1,0 +1,12 @@
+site_name: Cancer prediction
+site_url: https://github.com/<user-name>/cancer-prediction-xwc21
+repo_url: https://github.com/<user-name>/cancer-prediction-xwc21
+nav:
+  - Home: index.md
+  - cancer-prediction:
+    - cancer model: cancer-prediction_xwc21/cancer_model.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for file changes
